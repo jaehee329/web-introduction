@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+    <title>모디의 자기소개</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <div>
+        <h1>모디의 자기소개</h1>
+
+    </div>
+    <div>
+        <h1>인생 영화 BEST5</h1>
+        <table border="1" width="50%" height="200" cellspacing="5">
+        <caption>표 제목</caption>
+        <thead>
+            <tr align="center" bgcolor="white">
+                <td>순위</td>
+                <th>제목</th>
+                <th>포스터</th>
+                <th>줄거리</th>
+                <th>바로가기</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr align="center" bgcolor="white">
+                <th>1</th>
+                <td>인셉션</td>
+                <td><img src="../images/인셉션.jpg"></td>
+                <td>타인의 꿈에 들어가 생각을 훔치는 특수 보안요원 코브가 생각을 심는 '인셉션' 작전을 벌인다.</td>
+                <td><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=52515">클릭</a></td>
+            </tr>
+            <tr align="center" bgcolor="white">
+                <th>2</th>
+                <td>라따뚜이</td>
+                <td><img src="../images/라따뚜이.jpg"></td>
+                <td>절대미각, 빠른 손놀림, 끓어 넘치는 열정의 소유자 생쥐 ‘레미’가 견습생 '링귀니'를 조종하여 실력을 발휘한다.</td>
+                <td><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=65021">클릭</a></td>
+            </tr>
+            <tr align="center" bgcolor="white">
+                <th>3</th>
+                <td>아이언맨</td>
+                <td><img src="../images/아이언맨.jpg"></td>
+                <td>토니 스타크가 납치 후 탈출을 위한 철갑 수트를 만들며 무기사업에서 손을 떼고 세계 평화를 위해 노력한다.</td>
+                <td><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=44885">클릭</a></td>
+            </tr>
+            <tr align="center" bgcolor="white">
+                <th>4</th>
+                <td>아바타</td>
+                <td><img src="../images/아바타.jpg"></td>
+                <td>지구 에너지 고갈 문제를 해결하기 위해 판도라 행성에서 해병대원 제이크 설리가 '나비족'과 교감한다.</td>
+                <td><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=62266">클릭</a></td>
+            </tr>
+            <tr align="center" bgcolor="white">
+                <th>5</th>
+                <td>더 퍼스트 슬램덩크</td>
+                <td><img src="../images/슬램덩크.jpg"></td>
+                <td>전국 제패를 꿈꾸는 북산고 농구부 5인방의 꿈과 열정, 멈추지 않는 도전을 그린 영화</td>
+                <td><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=223800">클릭</a></td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+    <div>
+        <h1>방명록</h1>
+        이름: <input type="text" id="name" name="name"> <br>
+        본인 취향 영화
+        <p>
+            <label><input type="checkbox" name="checkbox" value="인셉션">인셉션</label>
+            <label><input type="checkbox" name="checkbox" value="라따뚜이">라따뚜이</label>
+            <label><input type="checkbox" name="checkbox" value="아이언맨">아이언맨</label>
+            <label><input type="checkbox" name="checkbox" value="아바타">아바타</label>
+            <label><input type="checkbox" name="checkbox" value="더 퍼스트 슬램덩크">더 퍼스트 슬램덩크</label>
+        </p>
+        <button type="button" id="button1" onclick="button1_click();">등록</button>
+    </div>
+
+    <script src="../js/visitor.js"></script>
+</body>
